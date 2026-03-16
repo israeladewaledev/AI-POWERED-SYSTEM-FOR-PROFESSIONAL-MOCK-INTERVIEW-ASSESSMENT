@@ -1,6 +1,18 @@
 .DS_Store
 Maryam Literature/
 uis/
-*.py
-*.txt
-*.sh
+/create_fact_sheet.py
+/create_fact_sheet_firdausi.py
+/firdausi_chapter_two_fact_sheet.txt
+/maryam_chapter_two_fact_sheet.txt
+/setup_stt.sh
+/strings_output.txt
+/Maryam Proposal (1).docx
+/Maryam Chapter One to Three.docx
+/Maryam Chapter One to Three.pdf
+/Firduasi Chapter One to Three.docx
+/Firduasi Chapter One to Three.pdf
+/FREE_TIER_GUIDE.md
+/Firduasi literature/
+/Lameer Literature/
+/~ Chapter One to Three.docx
