@@ -1,0 +1,240 @@
+FILE: out-Literature-Review-Extraction.md
+AUTHOR/YEAR: Automating personality (2017)
+TITLE: Automating personality -based employment interviews: A systematic review, development and
+METHOD: NLP
+RELEVANCE: The study directly relates to interview systems or candidate assessment, providing direct support for the interview practice platform.
+--------------------------------------------------
+FILE: 2431706804 - Simon Boateng - Simon_Wahab_CS_Capstone_Report-Literature-Review-Extraction.md
+AUTHOR/YEAR: ASHESI UNIVERSITY
+TITLE: ASHESI UNIVERSITY
+METHOD: Not explicitly stated
+RELEVANCE: The study directly relates to interview systems or candidate assessment, providing direct support for the interview practice platform.
+--------------------------------------------------
+FILE: Mental+Health+Analysis+Using+Machine+Learning-Literature-Review-Extraction.md
+AUTHOR/YEAR: Multidisciplinary  peer (2024)
+TITLE: Int. J. Sci. R. Tech., 2024 1( 12)
+METHOD: machine learning, NLP
+RELEVANCE: The paper may provide general insights into speech processing, AI systems, or human-computer interaction that could inform the project design.
+--------------------------------------------------
+FILE: 126017526-Literature-Review-Extraction.md
+AUTHOR/YEAR: Enhancing The Predicition Accuracy Of Skin
+TITLE: Enhancing The Predicition Accuracy Of Skin
+METHOD: CNN, deep learning, neural network, experimental
+RELEVANCE: The paper may provide general insights into speech processing, AI systems, or human-computer interaction that could inform the project design.
+--------------------------------------------------
+FILE: 3_1117YIJIE_GAO-Literature-Review-Extraction.md
+AUTHOR/YEAR: University of Southampton Research Repository
+TITLE: University of Southampton Research Repository
+METHOD: qualitative
+RELEVANCE: The paper addresses emotion recognition or sentiment analysis, which supports tone and emotional state assessment in interview contexts. The study directly relates to interview systems or candidate assessment, providing direct support for the interview practice platform.
+--------------------------------------------------
+FILE: Real-Time-Mock-Interview-Evaluation-using-CNN-Literature-Review-Extraction.md
+AUTHOR/YEAR: th IEEE International Conference on Data Engineering and Communication Systems (2024)
+TITLE: 4th IEEE International Conference on Data Engineering and Communication Systems (ICDECS)
+METHOD: CNN, deep learning, neural network, NLP
+RELEVANCE: The paper addresses emotion recognition or sentiment analysis, which supports tone and emotional state assessment in interview contexts. The study directly relates to interview systems or candidate assessment, providing direct support for the interview practice platform. The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: 3579543-Literature-Review-Extraction.md
+AUTHOR/YEAR: Latest updates (2026)
+TITLE: Latest updates: hps://dl.acm.org/doi/10.1145/3579543
+METHOD: qualitative
+RELEVANCE: The paper may provide general insights into speech processing, AI systems, or human-computer interaction that could inform the project design.
+--------------------------------------------------
+FILE: Personality_Recognition_and_Video_Interv-Literature-Review-Extraction.md
+AUTHOR/YEAR: Personality Recognition (Not explicitly stated)
+TITLE: Personality Recognition & Video Interview
+METHOD: CNN, machine learning, neural network
+RELEVANCE: The paper addresses emotion recognition or sentiment analysis, which supports tone and emotional state assessment in interview contexts. The study directly relates to interview systems or candidate assessment, providing direct support for the interview practice platform. The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: 36154-661-29250-1-10-20250720-Literature-Review-Extraction.md
+AUTHOR/YEAR: Automatic Speech Recognition for Children (2007)
+TITLE: Automatic Speech Recognition for Children: A Systematic
+METHOD: neural network, prosodic
+RELEVANCE: The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: 2312.05187v1-Literature-Review-Extraction.md
+AUTHOR/YEAR: Multilingual Expressive and Streaming Speech Translation
+TITLE: Multilingual Expressive and Streaming Speech Translation
+METHOD: Not explicitly stated
+RELEVANCE: The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: IRJET_Automated_HR_Interview_System-Literature-Review-Extraction.md
+AUTHOR/YEAR: International Research Journal of Engineering and Technology (2021)
+TITLE: International Research Journal of Engineering and Technology  (IRJET)        e-ISSN: 2395-0056
+METHOD: Not explicitly stated
+RELEVANCE: This paper is highly relevant to the Maryam component (speech to tone) as it focuses on prosodic analysis, tone, pitch, or intonation patterns. The study directly relates to interview systems or candidate assessment, providing direct support for the interview practice platform. The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: 3395035.3425221-Literature-Review-Extraction.md
+AUTHOR/YEAR: Latest updates (2026)
+TITLE: Latest updates: hps://dl.acm.org/doi/10.1145/3395035.3425221
+METHOD: signal processing
+RELEVANCE: The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: 2409.14769v1-Literature-Review-Extraction.md
+AUTHOR/YEAR: Agnostic Analysis of Speech Depression
+TITLE: Language-Agnostic Analysis of Speech Depression
+METHOD: CNN, neural network, prosodic
+RELEVANCE: This paper is highly relevant to the Maryam component (speech to tone) as it focuses on prosodic analysis, tone, pitch, or intonation patterns. The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: 10-Article Text-99-1-10-20250724-Literature-Review-Extraction.md
+AUTHOR/YEAR: Prosody Analysis to Recognize Speech Disorders among the Elderly
+TITLE: Prosody Analysis to Recognize Speech Disorders among the Elderly
+METHOD: prosodic, signal processing, qualitative
+RELEVANCE: This paper is highly relevant to the Maryam component (speech to tone) as it focuses on prosodic analysis, tone, pitch, or intonation patterns. The study directly relates to interview systems or candidate assessment, providing direct support for the interview practice platform. The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: s41598-025-19141-0-Literature-Review-Extraction.md
+AUTHOR/YEAR: modal deep (Not explicitly stated)
+TITLE: Multi-modal deep-attention-
+METHOD: CNN, LSTM, deep learning, machine learning, neural network
+RELEVANCE: The paper may provide general insights into speech processing, AI systems, or human-computer interaction that could inform the project design.
+--------------------------------------------------
+FILE: 126017305-Literature-Review-Extraction.md
+AUTHOR/YEAR: Deep Lea
+TITLE: rning Approach for Human Emotion From
+METHOD: CNN, deep learning, machine learning, neural network, prosodic
+RELEVANCE: This paper is highly relevant to the Maryam component (speech to tone) as it focuses on prosodic analysis, tone, pitch, or intonation patterns. The paper addresses emotion recognition or sentiment analysis, which supports tone and emotional state assessment in interview contexts. The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: ssrn-5412377-Literature-Review-Extraction.md
+AUTHOR/YEAR: Hong Kong University Business School (2025)
+TITLE: Hong Kong University Business School:
+METHOD: machine learning
+RELEVANCE: The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: 3555117-Literature-Review-Extraction.md
+AUTHOR/YEAR: Latest updates (2026)
+TITLE: Latest updates: hps://dl.acm.org/doi/10.1145/3555117
+METHOD: qualitative, quantitative
+RELEVANCE: The paper may provide general insights into speech processing, AI systems, or human-computer interaction that could inform the project design.
+--------------------------------------------------
+FILE: 3491102.3517687-Literature-Review-Extraction.md
+AUTHOR/YEAR: Latest updates (2026)
+TITLE: Latest updates: hps://dl.acm.org/doi/10.1145/3491102.3517687
+METHOD: prosodic
+RELEVANCE: The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: Multimodal_Transfer_Learning_for_Oral_Presentation_Assessment-Literature-Review-Extraction.md
+AUTHOR/YEAR: date of publication (2023)
+TITLE: Received 26 June 2023, accepted 2 July 2023, date of publication 17 July 2023, date of current version 14 August 2023.
+METHOD: deep learning, machine learning
+RELEVANCE: The study directly relates to interview systems or candidate assessment, providing direct support for the interview practice platform.
+--------------------------------------------------
+FILE: ssrn-4946523-Literature-Review-Extraction.md
+AUTHOR/YEAR: The Vocal Dime nsion (2023)
+TITLE: The Vocal Dime nsion s of
+METHOD: qualitative, quantitative
+RELEVANCE: This paper is highly relevant to the Maryam component (speech to tone) as it focuses on prosodic analysis, tone, pitch, or intonation patterns. The paper addresses emotion recognition or sentiment analysis, which supports tone and emotional state assessment in interview contexts. The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: WMRB2020-Literature-Review-Extraction.md
+AUTHOR/YEAR: The Winthrop McNair
+TITLE: The Winthrop McNair
+METHOD: Not explicitly stated
+RELEVANCE: The paper may provide general insights into speech processing, AI systems, or human-computer interaction that could inform the project design.
+--------------------------------------------------
+FILE: biron-et-al-2025-disentanglement-of-prosodic-meaning-toward-a-framework-for-the-analysis-of-nonverbal-information-in-Literature-Review-Extraction.md
+AUTHOR/YEAR: RESEARCH ARTICLECOMPUTER SCIENCES
+TITLE: RESEARCH ARTICLECOMPUTER SCIENCES
+METHOD: NLP, prosodic
+RELEVANCE: The paper may provide general insights into speech processing, AI systems, or human-computer interaction that could inform the project design.
+--------------------------------------------------
+FILE: AI-Based-Remote-Assessment-of-Depression-in-Humans-A-Pathway-to-Enhancing-Food-and-Job-Security-for-Poverty-Reduction-in-Nigeria-Literature-Review-Extraction.md
+AUTHOR/YEAR: International Journal of Computer Applications (2025)
+TITLE: International Journal of Computer Applications (0975 – 8887)
+METHOD: CNN, machine learning
+RELEVANCE: This paper is highly relevant to the Maryam component (speech to tone) as it focuses on prosodic analysis, tone, pitch, or intonation patterns. The paper addresses emotion recognition or sentiment analysis, which supports tone and emotional state assessment in interview contexts. The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: 2511.14779v1-Literature-Review-Extraction.md
+AUTHOR/YEAR: The Impact of Prosodic Segmentation on Speech
+TITLE: The Impact of Prosodic Segmentation on Speech
+METHOD: prosodic, experimental
+RELEVANCE: This paper is highly relevant to the Maryam component (speech to tone) as it focuses on prosodic analysis, tone, pitch, or intonation patterns. The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: USING DEEP LEARNING-BASED FRAMEWORK FOR CHILD SPEECH EMOTION RECO-Literature-Review-Extraction.md
+AUTHOR/YEAR: Virginia Commonwealth Univ ersity Virginia Commonwealth Univ ersity
+TITLE: Virginia Commonwealth Univ ersity Virginia Commonwealth Univ ersity
+METHOD: deep learning
+RELEVANCE: The paper may provide general insights into speech processing, AI systems, or human-computer interaction that could inform the project design.
+--------------------------------------------------
+FILE: 1323772-Literature-Review-Extraction.md
+AUTHOR/YEAR: Posted on (2025)
+TITLE: Posted on 11 Aug 2025 | CC-BY-NC-SA 4 | https://doi.org/10.22541/au.175494733.30349065/v1 | This is a preprint and has not been peer-reviewed. Data may be preliminary.AI-Driven Behavioral and Sociocul
+METHOD: NLP, prosodic
+RELEVANCE: This paper is highly relevant to the Maryam component (speech to tone) as it focuses on prosodic analysis, tone, pitch, or intonation patterns. The paper addresses emotion recognition or sentiment analysis, which supports tone and emotional state assessment in interview contexts. The study directly relates to interview systems or candidate assessment, providing direct support for the interview practice platform. The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: kthompson1,+[7]+6798-Article+Text-22348-1-11-20210212-Literature-Review-Extraction.md
+AUTHOR/YEAR: Australasian Journal of Educational Technology (2016)
+TITLE: Australasian Journal of Educational Technology, 202 1, 37(2).
+METHOD: experimental
+RELEVANCE: The paper may provide general insights into speech processing, AI systems, or human-computer interaction that could inform the project design.
+--------------------------------------------------
+FILE: 9446-Literature-Review-Extraction.md
+AUTHOR/YEAR: International Journal on Science and Technology (2025)
+TITLE: International Journal on Science and Technology (IJSAT)
+METHOD: machine learning, NLP, experimental
+RELEVANCE: The study directly relates to interview systems or candidate assessment, providing direct support for the interview practice platform. The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: 6-Emotion-and-Confidence-Classifier-Literature-Review-Extraction.md
+AUTHOR/YEAR: Shalini Bhaskar Bajaj (2025)
+TITLE: Emotion and Confidence Classifier for Mock Interviews Using Artificial Intelligence
+METHOD: Experimental system design with multimodal input analysis. The methodology comprises several interconnected stages: (1) Data Acquisition - real-time audio-visual recording using webcam and microphone interfaces; (2) Emotion Analysis - using Convolutional Neural Networks (CNN) trained on facial expression datasets to classify seven basic emotions (fear, anger, sadness, happiness, surprise, disgust, neutral); (3) Speech Analysis - employing Natural Language Processing (NLP) to analyze pronunciation clarity, speech rate, use of filler words, verbal fluency, and coherence; (4) Confidence Assessment - examining prosodic characteristics including pitch variability, voice volume, and rate of hesitations using Pydub library for audio segmentation; (5) Knowledge Base Assessment - evaluating semantic correctness, syntax correctness, and answer correctness using NLP models; (6) Scoring Framework - weighted combination of emotion score (20%), speech score (20%), confidence score (10%), and knowledge score (50%).
+RELEVANCE: This paper is highly relevant to the Maryam component (speech to tone) of the web interview practice platform. The study directly addresses emotion and confidence analysis from speech and facial expressions, which aligns with the speech-to-tone conversion objective. The paper demonstrates the application of prosodic feature analysis (pitch variability, voice volume, speech rate) for confidence assessment, which is fundamental to tone analysis. The use of NLP and LSTM models for speech processing and recognition provides methodological guidance for implementing speech-to-tone conversion. The multimodal approach combining audio and visual analysis supports the comprehensive evaluation needed in an interview practice platform. The weighted scoring framework and objective assessment methodology can inform the design of feedback mechanisms in the Maryam system.
+--------------------------------------------------
+FILE: 2107.08356v1-Literature-Review-Extraction.md
+AUTHOR/YEAR: IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS (2021)
+TITLE: IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS 1
+METHOD: qualitative
+RELEVANCE: The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: The-Second-National-Conference-on-Human-Computer-Interaction-Theories-and-Applications-Beyond-the-Chatbots-Designing-Multi-Modal-Interactive-Systems-for-Developing-Socio-Pragmatic-Competence-in-Async-Literature-Review-Extraction.md
+AUTHOR/YEAR: Refah University College (2025)
+TITLE: Page 1 of 9
+METHOD: Not explicitly stated
+RELEVANCE: The paper may provide general insights into speech processing, AI systems, or human-computer interaction that could inform the project design.
+--------------------------------------------------
+FILE: 2022_MaryamAbedi-Literature-Review-Extraction.md
+AUTHOR/YEAR: Reference Architecture of AI (2022)
+TITLE: Title:T owards a Reference Architecture of AI-Based Job Interview Systems
+METHOD: Not explicitly stated
+RELEVANCE: The study directly relates to interview systems or candidate assessment, providing direct support for the interview practice platform.
+--------------------------------------------------
+FILE: s10462-024-10760-z-Literature-Review-Extraction.md
+AUTHOR/YEAR: Artificial Intelligence Review (2024)
+TITLE: Vol.:(0123456789)Artificial Intelligence Review (2024) 57:148
+METHOD: CNN
+RELEVANCE: The paper addresses emotion recognition or sentiment analysis, which supports tone and emotional state assessment in interview contexts. The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: 2403.03522v2-Literature-Review-Extraction.md
+AUTHOR/YEAR: verbal information in spontaneous speech (Not explicitly stated)
+TITLE: Non-verbal information in spontaneous speech –
+METHOD: NLP, prosodic
+RELEVANCE: The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: 2025.icnlsp-1.30-Literature-Review-Extraction.md
+AUTHOR/YEAR: Improving French Synthetic Speech Quality via SSML Prosody Control
+TITLE: Improving French Synthetic Speech Quality via SSML Prosody Control
+METHOD: LSTM, neural network, prosodic
+RELEVANCE: This paper is highly relevant to the Maryam component (speech to tone) as it focuses on prosodic analysis, tone, pitch, or intonation patterns. The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: 10-Article-Text-99-1-10-20250724-Literature-Review-Extraction.md
+AUTHOR/YEAR: Cecep Agus, Nur Alifah (2025)
+TITLE: Prosody Analysis to Recognize Speech Disorders among the Elderly
+METHOD: Qualitative research methodology involving in vivo voice recordings, interviews, and signal analysis using sound processing software. The method includes measuring prosodic parameters such as frequency, pause duration, and voice stress patterns in real communication contexts.
+RELEVANCE: This paper is highly relevant to the Maryam component (speech to tone) as it focuses on prosodic analysis for speech assessment. The study demonstrates the application of prosodic features (pitch frequency, speech rhythm, voice intensity) for analyzing speech characteristics, which directly supports tone analysis in interview contexts. The methodology of using signal analysis and prosodic parameter measurement provides technical guidance for implementing speech-to-tone conversion. The early detection approach through prosodic analysis aligns with the need for real-time tone assessment in interview practice platforms.
+--------------------------------------------------
+FILE: phd_unimib_836548-Literature-Review-Extraction.md
+AUTHOR/YEAR: SCUOLA  DI DOTTOR ATO
+TITLE: SCUOLA  DI DOTTOR ATO
+METHOD: Not explicitly stated
+RELEVANCE: The paper addresses emotion recognition or sentiment analysis, which supports tone and emotional state assessment in interview contexts.
+--------------------------------------------------
+FILE: 2405.05126v1-Literature-Review-Extraction.md
+AUTHOR/YEAR: Exploring Speech Pattern Disorders in Autism
+TITLE: Exploring Speech Pattern Disorders in Autism
+METHOD: machine learning, prosodic
+RELEVANCE: This paper is highly relevant to the Maryam component (speech to tone) as it focuses on prosodic analysis, tone, pitch, or intonation patterns. The research involves speech or voice analysis, which is fundamental to speech-to-tone conversion.
+--------------------------------------------------
+FILE: Emotionally-Intelligent-AI-Systems-for-Neurodiverse-Environments-Enhancing-Engagement-Through-Contextual-and-Behavioral-Awareness-Literature-Review-Extraction.md
+AUTHOR/YEAR: Emotionally Intelligent AI Systems for Neurodiverse Environments (2025)
+TITLE: Emotionally Intelligent AI Systems for Neurodiverse Environments:
+METHOD: qualitative, quantitative, experimental
+RELEVANCE: The paper addresses emotion recognition or sentiment analysis, which supports tone and emotional state assessment in interview contexts.
+--------------------------------------------------

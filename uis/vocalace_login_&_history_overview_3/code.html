@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Edit Interview Transcript</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Noto+Sans:wght@400;500;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#00d6ab",
+                        "background-light": "#ffffff",
+                        "background-dark": "#1a2332",
+                        "surface-dark": "#232d3f",
+                        "border-dark": "#2e3b4e",
+                        "ios-blue": "#007AFF",
+                        "ios-green": "#34C759",
+                        "ios-gray": "#8E8E93"
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"],
+                        "sans": ["Noto Sans", "sans-serif"],
+                        "mono": ["JetBrains Mono", "monospace"]
+                    }
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer utilities {
+            .transcript-container {
+                scrollbar-width: thin;
+                scrollbar-color: #2e3b4e transparent;
+            }
+            .line-number {
+                @apply text-slate-600 text-[10px] w-6 inline-block text-right pr-2 select-none font-mono;
+            }
+            .timestamp {
+                @apply text-primary/50 text-[10px] w-10 inline-block text-left pl-2 select-none font-mono font-bold;
+            }
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-dark font-sans text-white selection:bg-primary/30 min-h-screen overflow-hidden">
+<div class="relative flex h-screen w-full flex-col max-w-[480px] mx-auto border-x border-border-dark shadow-2xl bg-background-dark">
+<div class="px-4 pt-4 pb-2 border-b border-border-dark bg-background-dark/80 backdrop-blur-md sticky top-0 z-20">
+<div class="flex items-center justify-between mb-3">
+<button class="text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-lg">chevron_left</span>
+<span class="text-sm">Back</span>
+</button>
+<h1 class="text-sm font-semibold">Transcript Editor</h1>
+<button class="text-primary text-sm font-medium">Tools</button>
+</div>
+<div class="flex flex-col gap-2">
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-slate-500 text-sm">search</span>
+<input class="w-full h-9 rounded-lg bg-surface-dark border-transparent text-sm pl-9 pr-4 focus:ring-1 focus:ring-primary placeholder:text-slate-500" placeholder="Find in transcript..." type="text"/>
+</div>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-slate-500 text-sm">find_replace</span>
+<input class="w-full h-9 rounded-lg bg-surface-dark border-transparent text-sm pl-9 pr-4 focus:ring-1 focus:ring-primary placeholder:text-slate-500" placeholder="Replace with..." type="text"/>
+</div>
+</div>
+</div>
+<main class="flex-1 overflow-y-auto transcript-container bg-background-dark py-6">
+<div class="flex flex-col gap-1 font-mono text-sm leading-relaxed px-4">
+<div class="flex items-start group">
+<span class="line-number pt-1">01</span>
+<span class="timestamp pt-1">0:00</span>
+<div class="flex-1 pl-4 outline-none focus:bg-surface-dark rounded p-1 transition-colors" contenteditable="true">
+<span class="text-primary font-bold mr-2">Interviewer:</span> Good morning, thank you for joining us today. To start off, could you tell us a bit about your background in software engineering?
+                    </div>
+</div>
+<div class="flex items-start group mt-3">
+<span class="line-number pt-1">05</span>
+<span class="timestamp pt-1">0:30</span>
+<div class="flex-1 pl-4 outline-none focus:bg-surface-dark rounded p-1 transition-colors" contenteditable="true">
+<span class="text-slate-400 font-bold mr-2">Candidate:</span> Um, hi. Yeah, sure. I've been working as a, you know, full-stack developer for about five years now. Most of my experience is with, uh, React and Node.js.
+                    </div>
+</div>
+<div class="flex items-start group mt-3">
+<span class="line-number pt-1">09</span>
+<span class="timestamp pt-1">1:00</span>
+<div class="flex-1 pl-4 outline-none focus:bg-surface-dark rounded p-1 transition-colors" contenteditable="true">
+<span class="text-primary font-bold mr-2">Interviewer:</span> That's great. Can you tell us about a particularly challenging project you worked on recently?
+                    </div>
+</div>
+<div class="flex items-start group mt-3">
+<span class="line-number pt-1">12</span>
+<span class="timestamp pt-1">1:30</span>
+<div class="flex-1 pl-4 outline-none focus:bg-surface-dark rounded p-1 transition-colors" contenteditable="true">
+<span class="text-slate-400 font-bold mr-2">Candidate:</span> Definitely. Last year, I led a migration from a monolithic architecture to microservices. It was, um, quite a complex process because we had to maintain zero downtime while moving data for, like, over a million users.
+                    </div>
+</div>
+<div class="flex items-start group mt-3">
+<span class="line-number pt-1">18</span>
+<span class="timestamp pt-1">2:00</span>
+<div class="flex-1 pl-4 outline-none focus:bg-surface-dark rounded p-1 transition-colors" contenteditable="true">
+<span class="text-slate-400 font-bold mr-2">Candidate:</span> We used Kubernetes for orchestration and, uh, implemented a robust CI/CD pipeline which really helped with the stability of the releases.
+                    </div>
+</div>
+<div class="flex items-start group mt-3">
+<span class="line-number pt-1">21</span>
+<span class="timestamp pt-1">2:30</span>
+<div class="flex-1 pl-4 outline-none focus:bg-surface-dark rounded p-1 transition-colors" contenteditable="true">
+<span class="text-primary font-bold mr-2">Interviewer:</span> How did you manage team communication during that transition?
+                    </div>
+</div>
+<div class="h-20"></div> 
+</div>
+</main>
+<div class="px-4 py-3 bg-surface-dark border-t border-border-dark">
+<div class="flex items-center gap-3 mb-4 overflow-x-auto pb-1 no-scrollbar">
+<button class="flex items-center gap-2 px-3 py-2 bg-background-dark border border-border-dark rounded-full whitespace-nowrap text-xs font-medium hover:border-primary transition-colors">
+<span class="material-symbols-outlined text-primary text-sm">magic_button</span>
+                    Auto-correct fillers
+                </button>
+<button class="flex items-center gap-2 px-3 py-2 bg-background-dark border border-border-dark rounded-full whitespace-nowrap text-xs font-medium hover:border-primary transition-colors">
+<span class="material-symbols-outlined text-primary text-sm">description</span>
+                    Professional format
+                </button>
+<button class="flex items-center gap-2 px-3 py-2 bg-background-dark border border-border-dark rounded-full whitespace-nowrap text-xs font-medium hover:border-primary transition-colors">
+<span class="material-symbols-outlined text-primary text-sm">summarize</span>
+                    Summarize
+                </button>
+</div>
+<div class="grid grid-cols-3 gap-3 pb-6">
+<button class="bg-ios-gray/20 hover:bg-ios-gray/30 text-white text-xs font-bold h-11 rounded-lg transition-all active:scale-95 flex items-center justify-center">
+                    Discard
+                </button>
+<button class="bg-ios-blue hover:bg-ios-blue/90 text-white text-xs font-bold h-11 rounded-lg transition-all active:scale-95 flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-sm">ios_share</span>
+                    Export
+                </button>
+<button class="bg-ios-green hover:bg-ios-green/90 text-white text-xs font-bold h-11 rounded-lg transition-all active:scale-95 flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-sm">save</span>
+                    Save
+                </button>
+</div>
+</div>
+<div class="bg-surface-dark pb-2">
+<div class="w-32 h-1 bg-white/20 mx-auto rounded-full"></div>
+</div>
+</div>
+<style>
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+
+</body></html>

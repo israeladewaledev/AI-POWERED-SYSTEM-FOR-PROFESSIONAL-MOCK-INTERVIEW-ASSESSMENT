@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>VocalAce Login &amp; History</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Noto+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#00d6ab",
+                        "background-light": "#ffffff",
+                        "background-dark": "#1a2332",
+                        "surface-dark": "#232d3f",
+                        "border-dark": "#2e3b4e"
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"],
+                        "sans": ["Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .circular-progress {
+            background: radial-gradient(closest-side, #232d3f 79%, transparent 80% 100%),
+                        conic-gradient(#00d6ab var(--progress), #2e3b4e 0);
+        }
+        .glow-effect {
+            box-shadow: 0 0 15px rgba(0, 214, 171, 0.15);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-white selection:bg-primary/30 min-h-screen">
+<div class="relative flex min-h-screen w-full flex-col max-w-[480px] mx-auto overflow-x-hidden border-x border-transparent dark:border-border-dark shadow-2xl">
+<!-- TopAppBar Component -->
+<div class="flex items-center bg-background-light dark:bg-background-dark p-6 pb-2 justify-center">
+<div class="flex flex-col items-center gap-1">
+<div class="text-primary flex size-8 items-center justify-center mb-1" data-icon="Graphic_Eq">
+<span class="material-symbols-outlined text-3xl">graphic_eq</span>
+</div>
+<h2 class="text-white text-2xl font-bold tracking-[0.2em] uppercase">VocalAce</h2>
+</div>
+</div>
+<!-- Headline & BodyText Components -->
+<div class="px-6 pt-10 pb-4">
+<h2 class="text-white tracking-tight text-3xl font-bold leading-tight text-left">Master your voice.</h2>
+<p class="text-slate-400 text-base font-normal leading-normal pt-2 text-left">Sign in to resume your AI-powered vocal analysis sessions.</p>
+</div>
+<!-- Login Form Container -->
+<div class="px-6 space-y-4">
+<!-- TextField (Email) -->
+<div class="flex flex-col gap-2">
+<label class="text-slate-300 text-sm font-medium pl-1">Email Address</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-4 text-slate-500 text-xl">mail</span>
+<input class="w-full rounded-xl bg-surface-dark border-border-dark text-white h-14 pl-12 pr-4 focus:ring-1 focus:ring-primary focus:border-primary placeholder:text-slate-600 transition-all" placeholder="name@company.com" type="email"/>
+</div>
+</div>
+<!-- TextField (Password) -->
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-center px-1">
+<label class="text-slate-300 text-sm font-medium">Password</label>
+<a class="text-primary text-xs font-medium hover:underline" href="#">Forgot?</a>
+</div>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-4 text-slate-500 text-xl">lock</span>
+<input class="w-full rounded-xl bg-surface-dark border-border-dark text-white h-14 pl-12 pr-12 focus:ring-1 focus:ring-primary focus:border-primary placeholder:text-slate-600 transition-all" placeholder="••••••••" type="password"/>
+<button class="absolute right-4 text-slate-500 hover:text-slate-300">
+<span class="material-symbols-outlined text-xl">visibility</span>
+</button>
+</div>
+</div>
+<!-- Action Button -->
+<button class="w-full bg-primary hover:bg-primary/90 text-background-dark font-bold text-lg h-14 rounded-xl transition-all active:scale-[0.98] mt-4 flex items-center justify-center gap-2 glow-effect">
+                Sign In
+                <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<!-- Vocal Health History Card (Custom Component) -->
+<div class="mt-12 px-6 pb-12">
+<div class="bg-surface-dark/50 border border-border-dark rounded-2xl p-6">
+<div class="flex justify-between items-center mb-6">
+<h3 class="text-white text-lg font-semibold flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">history</span>
+                        Vocal Health History
+                    </h3>
+<span class="text-slate-500 text-xs font-medium uppercase tracking-wider">Last 30 Days</span>
+</div>
+<div class="grid grid-cols-3 gap-4">
+<!-- Progress Item 1 -->
+<div class="flex flex-col items-center gap-3">
+<div class="circular-progress size-20 rounded-full flex items-center justify-center" style="--progress: 85%;">
+<span class="text-white font-bold text-lg">85</span>
+</div>
+<div class="text-center">
+<p class="text-xs text-white font-medium">Oct 12</p>
+<p class="text-[10px] text-primary uppercase font-bold tracking-tighter">Confident</p>
+</div>
+</div>
+<!-- Progress Item 2 -->
+<div class="flex flex-col items-center gap-3">
+<div class="circular-progress size-20 rounded-full flex items-center justify-center" style="--progress: 62%;">
+<span class="text-white font-bold text-lg">62</span>
+</div>
+<div class="text-center">
+<p class="text-xs text-white font-medium">Oct 08</p>
+<p class="text-[10px] text-amber-400 uppercase font-bold tracking-tighter">Strained</p>
+</div>
+</div>
+<!-- Progress Item 3 -->
+<div class="flex flex-col items-center gap-3">
+<div class="circular-progress size-20 rounded-full flex items-center justify-center" style="--progress: 94%;">
+<span class="text-white font-bold text-lg">94</span>
+</div>
+<div class="text-center">
+<p class="text-xs text-white font-medium">Oct 03</p>
+<p class="text-[10px] text-primary uppercase font-bold tracking-tighter">Optimal</p>
+</div>
+</div>
+</div>
+<div class="mt-6 pt-6 border-t border-border-dark flex items-center justify-between">
+<div class="flex -space-x-2">
+<div class="size-8 rounded-full bg-primary/20 border border-primary/30 flex items-center justify-center overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="User avatar for profile" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAK0t_5kW0-7wpX75iEuOIvlovhq5UfRfC9j-TCEJKI5W4XKdmKmaTTlgEJ4RdMbm7LDCxUHa1UbiA3RIGFh3gyQPoUbJT3KPvQbETqF8SNPVl7manbnT785hhULtv599AXasf4v15Ww3lOZgW5KWc_A8rn2zmROTzUJ0HMxfwsP5tkz1cZBaiBPQ6lHxoPbC7CA4OWq_h0QraQIEpQ54HKzBoKrJtBnFtAc7zkIowEZzk5SdifMTwGxxQ3vlhhUbRBaHZwXTK6npsB"/>
+</div>
+</div>
+<p class="text-slate-400 text-xs italic font-light italic">Your resonance is improving.</p>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<div class="mt-auto py-8 text-center">
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface-dark border border-border-dark">
+<span class="material-symbols-outlined text-sm text-primary">auto_awesome</span>
+<span class="text-slate-400 text-[10px] font-bold uppercase tracking-[0.2em]">Powered by AI</span>
+</div>
+</div>
+<!-- iOS Home Indicator Spacing -->
+<div class="h-8"></div>
+</div>
+</body></html>

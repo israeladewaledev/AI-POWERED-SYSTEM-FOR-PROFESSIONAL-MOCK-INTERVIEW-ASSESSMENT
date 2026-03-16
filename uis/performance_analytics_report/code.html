@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Performance Analytics Report</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#00d6ab",
+                        "background-light": "#ffffff",
+                        "background-dark": "#1a2332",
+                        "accent-red": "#ff3d5d",
+                        "accent-amber": "#ffb333",
+                        "accent-green": "#98ff82",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .light .glass-card {
+            background: rgba(0, 0, 0, 0.02);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white min-h-screen pb-32">
+<!-- Top Navigation Bar -->
+<nav class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md px-4 py-4 flex items-center justify-between border-b border-slate-200 dark:border-slate-800">
+<button class="p-2 -ml-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined align-middle">arrow_back_ios_new</span>
+</button>
+<h1 class="text-lg font-bold tracking-tight">Performance Analytics</h1>
+<button class="p-2 -mr-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined align-middle">share</span>
+</button>
+</nav>
+<main class="max-w-md mx-auto">
+<!-- Header Section -->
+<header class="pt-8 pb-6 px-4 text-center">
+<h2 class="text-2xl font-bold mb-1">Interview Performance Report</h2>
+<p class="text-slate-500 dark:text-primary/70 text-sm font-medium">October 24, 2023 • 15:20 Duration</p>
+</header>
+<!-- Confidence Score Circle -->
+<section class="flex flex-col items-center justify-center py-6 px-4">
+<div class="relative w-48 h-48 flex items-center justify-center">
+<!-- Circular Progress Background -->
+<svg class="w-full h-full transform -rotate-90">
+<circle class="text-slate-100 dark:text-slate-800" cx="96" cy="96" fill="transparent" r="88" stroke="currentColor" stroke-width="12"></circle>
+<circle cx="96" cy="96" fill="transparent" r="88" stroke="url(#gradient-primary)" stroke-dasharray="552.92" stroke-dashoffset="88.47" stroke-linecap="round" stroke-width="12"></circle>
+<defs>
+<lineargradient id="gradient-primary" x1="0%" x2="100%" y1="0%" y2="0%">
+<stop offset="0%" style="stop-color:#00d6ab;stop-opacity:1"></stop>
+<stop offset="100%" style="stop-color:#98ff82;stop-opacity:1"></stop>
+</lineargradient>
+</defs>
+</svg>
+<div class="absolute inset-0 flex flex-col items-center justify-center text-center">
+<span class="text-5xl font-bold tracking-tighter">84<span class="text-2xl">%</span></span>
+<span class="text-[10px] uppercase tracking-[0.2em] font-bold text-slate-500 dark:text-primary/60 mt-1">Overall Confidence</span>
+</div>
+</div>
+<div class="mt-6 inline-flex items-center gap-2 px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-bold border border-primary/20">
+<span class="material-symbols-outlined text-sm">auto_awesome</span>
+                Excellent Performance
+            </div>
+</section>
+<!-- Pitch Variability Graph Card -->
+<section class="px-4 mt-8">
+<div class="p-5 glass-card rounded-2xl">
+<div class="flex items-center justify-between mb-6">
+<h3 class="font-bold text-lg">Pitch Variability</h3>
+<span class="text-xs font-bold text-slate-400">HERTZ / TIME</span>
+</div>
+<!-- Custom SVG Graph -->
+<div class="relative h-32 w-full">
+<svg class="w-full h-full overflow-visible" viewbox="0 0 400 100">
+<defs>
+<lineargradient id="graph-gradient" x1="0%" x2="100%" y1="0%" y2="0%">
+<stop offset="0%" stop-color="#98ff82"></stop>
+<stop offset="50%" stop-color="#ffb333"></stop>
+<stop offset="100%" stop-color="#ff3d5d"></stop>
+</lineargradient>
+</defs>
+<path d="M0,80 Q20,20 40,50 T80,40 T120,70 T160,30 T200,60 T240,40 T280,80 T320,30 T360,60 T400,20" fill="none" stroke="url(#graph-gradient)" stroke-linecap="round" stroke-width="3"></path>
+<!-- Grid lines -->
+<line class="text-slate-100 dark:text-slate-800" stroke="currentColor" stroke-width="0.5" x1="0" x2="400" y1="20" y2="20"></line>
+<line class="text-slate-100 dark:text-slate-800" stroke="currentColor" stroke-width="0.5" x1="0" x2="400" y1="50" y2="50"></line>
+<line class="text-slate-100 dark:text-slate-800" stroke="currentColor" stroke-width="0.5" x1="0" x2="400" y1="80" y2="80"></line>
+</svg>
+<div class="flex justify-between mt-2 text-[10px] font-bold text-slate-400">
+<span>START</span>
+<span>MID</span>
+<span>END</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Analytics Grid (2x2) -->
+<section class="grid grid-cols-2 gap-4 px-4 mt-4">
+<!-- Average Energy Level -->
+<div class="p-4 glass-card rounded-2xl flex flex-col justify-between aspect-square">
+<div class="flex justify-between items-start">
+<span class="material-symbols-outlined text-primary">equalizer</span>
+<span class="text-[10px] font-bold text-slate-400">AVG ENERGY</span>
+</div>
+<div>
+<div class="text-3xl font-bold mb-1">68<span class="text-lg">dB</span></div>
+<div class="h-1 w-full bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+<div class="h-full bg-primary" style="width: 68%;"></div>
+</div>
+<p class="text-[10px] font-medium text-slate-400 mt-2">Consistent &amp; stable</p>
+</div>
+</div>
+<!-- Filler Words -->
+<div class="p-4 glass-card rounded-2xl flex flex-col justify-between aspect-square">
+<div class="flex justify-between items-start">
+<span class="material-symbols-outlined text-accent-amber">chat_bubble_outline</span>
+<span class="text-[10px] font-bold text-slate-400">FILLER WORDS</span>
+</div>
+<div>
+<div class="text-3xl font-bold mb-1">12</div>
+<div class="flex flex-wrap gap-1">
+<span class="px-1.5 py-0.5 bg-accent-amber/10 text-accent-amber text-[9px] font-bold rounded">"UM" x4</span>
+<span class="px-1.5 py-0.5 bg-accent-amber/10 text-accent-amber text-[9px] font-bold rounded">"LIKE" x8</span>
+</div>
+<p class="text-[10px] font-medium text-slate-400 mt-2">Slightly high</p>
+</div>
+</div>
+<!-- Speaking Rate -->
+<div class="p-4 glass-card rounded-2xl flex flex-col justify-between aspect-square">
+<div class="flex justify-between items-start">
+<span class="material-symbols-outlined text-accent-green">speed</span>
+<span class="text-[10px] font-bold text-slate-400">PACE</span>
+</div>
+<div>
+<div class="text-3xl font-bold mb-1">142<span class="text-sm">wpm</span></div>
+<div class="flex gap-1 items-end h-4">
+<div class="w-1.5 h-1/2 bg-slate-200 dark:bg-slate-800 rounded-full"></div>
+<div class="w-1.5 h-3/4 bg-slate-200 dark:bg-slate-800 rounded-full"></div>
+<div class="w-1.5 h-full bg-primary rounded-full"></div>
+<div class="w-1.5 h-2/3 bg-slate-200 dark:bg-slate-800 rounded-full"></div>
+<div class="w-1.5 h-1/3 bg-slate-200 dark:bg-slate-800 rounded-full"></div>
+</div>
+<p class="text-[10px] font-medium text-slate-400 mt-2">Optimal range</p>
+</div>
+</div>
+<!-- Emotional State Pie -->
+<div class="p-4 glass-card rounded-2xl flex flex-col justify-between aspect-square">
+<div class="flex justify-between items-start">
+<span class="material-symbols-outlined text-accent-red">psychology</span>
+<span class="text-[10px] font-bold text-slate-400">EMOTION</span>
+</div>
+<div class="flex items-center gap-3">
+<div class="relative w-12 h-12">
+<svg class="w-full h-full transform -rotate-90">
+<circle cx="24" cy="24" fill="transparent" r="20" stroke="#98ff82" stroke-dasharray="125.66" stroke-dashoffset="37.7" stroke-width="8"></circle>
+<circle cx="24" cy="24" fill="transparent" r="20" stroke="#ffb333" stroke-dasharray="125.66" stroke-dashoffset="100.5" stroke-width="8"></circle>
+</svg>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<div class="size-1.5 bg-accent-green rounded-full"></div>
+<span class="text-[10px] font-bold">70% Confident</span>
+</div>
+<div class="flex items-center gap-1.5">
+<div class="size-1.5 bg-accent-amber rounded-full"></div>
+<span class="text-[10px] font-bold">20% Nervous</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Detailed Insight Placeholder -->
+<section class="px-4 mt-6">
+<div class="bg-primary/5 border border-primary/10 rounded-2xl p-4">
+<div class="flex items-center gap-3 mb-2">
+<div class="size-8 rounded-full bg-primary flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-sm">lightbulb</span>
+</div>
+<h4 class="font-bold">Coach's Insight</h4>
+</div>
+<p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                    Your energy was highest during the technical walkthrough. Try to maintain that same vigor when discussing personal motivations to appear more authentic.
+                </p>
+</div>
+</section>
+</main>
+<!-- Sticky Bottom Actions -->
+<footer class="fixed bottom-0 left-0 right-0 p-4 bg-background-light dark:bg-background-dark border-t border-slate-200 dark:border-slate-800 flex flex-col gap-3 safe-area-bottom">
+<button class="w-full bg-primary text-background-dark font-bold h-14 rounded-xl flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
+<span class="material-symbols-outlined">refresh</span>
+            Practice Again
+        </button>
+<button class="w-full border border-slate-200 dark:border-slate-700 font-bold h-12 rounded-xl flex items-center justify-center gap-2 text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined text-lg">download</span>
+            Download PDF Report
+        </button>
+</footer>
+</body></html>
